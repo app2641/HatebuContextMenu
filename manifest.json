@@ -1,0 +1,22 @@
+{
+    "name": "HatebuContextMenu",
+    "version": "0.1",
+    "description": "表示しているページのはてなブックマークをコンテキストメニューから呼び出すことが出来ます。",
+    "permissions": ["tabs", "contextMenus"],
+
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "content_scripts": [{
+        "matches": [
+            "http://*/*",
+            "https://*/*"
+        ],
+        "js": ["js/content.js"]
+    }],
+    "icons": {
+        "128": "img/icon128.png",
+        "24": "img/icon24.png"
+    },
+    "manifest_version": 2
+}
