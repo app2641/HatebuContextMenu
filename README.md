@@ -1,8 +1,9 @@
 # HatebuContextMenu
 
-
 はてなブックマークを右クリックメニューから呼び出すChrome拡張です。  
 はてなブックマークの呼び出しは、右クリックをした場所によって呼び出し方が違います。
+
+[Chrome ウェブストア - HatebuContextMenu](https://chrome.google.com/webstore/detail/hatebucontextmenu/koagohdkmbmhhkjkmmhaefbiihnnlilp?hl=ja)
 
 
 ## 通常メニューの使い方
